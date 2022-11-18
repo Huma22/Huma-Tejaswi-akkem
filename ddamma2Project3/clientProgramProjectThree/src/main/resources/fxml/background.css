@@ -1,0 +1,4 @@
+ .bodybg{
+ -fx-background-image: url('gamebg.jpg');
+ -fx-background-size: 100% 100%;
+}

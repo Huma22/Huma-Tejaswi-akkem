@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.0" prefWidth="751.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hangman.controller.CategoryController">
+   <children>
+      <Button fx:id="superHeroesButton" layoutX="259.0" layoutY="194.0" mnemonicParsing="false" onAction="#superHeroes" prefHeight="63.0" prefWidth="234.0" style="-fx-background-color: #f1c40f;" text="Super Heroes">
+         <font>
+            <Font name="Bell MT" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="usaButton" layoutX="258.0" layoutY="303.0" mnemonicParsing="false" onAction="#usaStates" prefHeight="63.0" prefWidth="234.0" style="-fx-background-color: #1abc9c;" text="USA States">
+         <font>
+            <Font name="Bell MT" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="foodButton" layoutX="258.0" layoutY="414.0" mnemonicParsing="false" onAction="#food" prefHeight="63.0" prefWidth="234.0" style="-fx-background-color: #9b59b6;" text="Food">
+         <font>
+            <Font name="Bell MT" size="28.0" />
+         </font>
+      </Button>
+      <Text layoutX="150.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CATEGORIES">
+         <font>
+            <Font name="Bell MT Italic" size="72.0" />
+         </font>
+      </Text>
+      <Text fx:id="winsText" fill="#19b500" layoutX="40.0" layoutY="558.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wins : 0" wrappingWidth="85.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="losesText" fill="RED" layoutX="635.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Loses : 0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

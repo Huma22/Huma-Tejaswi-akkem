@@ -1,0 +1,16 @@
+.bp{
+  -fx-background-color: #f54275;	
+   -fx-border-width: 2 2 2 2;
+   -fx-border-style: solid;
+   -fx-padding: 5 5 5 5;
+}
+
+.vb{
+	-fx-background-color: #4266f5;
+	-fx-padding: 5 5 5 5;
+}
+
+.btn {
+	-fx-font-size: 30;
+	-fx-background-color: greenyellow;	
+}

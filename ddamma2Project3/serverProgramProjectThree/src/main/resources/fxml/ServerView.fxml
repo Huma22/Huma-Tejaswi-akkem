@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hangman.main.ServerController">
+   <children>
+      <TextField fx:id="portField" layoutX="26.0" layoutY="40.0" prefHeight="46.0" prefWidth="183.0" />
+      <Text layoutX="26.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port" />
+      <Button fx:id="listenButton" layoutX="265.0" layoutY="46.0" mnemonicParsing="false" onAction="#startListening" prefHeight="35.0" prefWidth="117.0" text="Start Listening" />
+      <TextArea fx:id="serverLog" layoutX="14.0" layoutY="176.0" prefHeight="372.0" prefWidth="390.0" />
+      <Text layoutX="15.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Server Log" />
+   </children>
+</AnchorPane>

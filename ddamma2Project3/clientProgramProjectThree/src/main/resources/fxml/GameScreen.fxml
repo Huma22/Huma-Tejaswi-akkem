@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="591.0" prefWidth="751.0" styleClass="bodybg" stylesheets="@background.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="com.hangman.controller.GameController">
+   <children>
+      <AnchorPane fx:id="keysGrid" layoutX="430.0" layoutY="146.0" prefHeight="300.0" prefWidth="307.0" />
+      <ImageView fitHeight="437.0" fitWidth="404.0" layoutX="14.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hangman-stand.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="manHead" fitHeight="91.0" fitWidth="91.0" layoutX="257.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@hangman-head.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="manLeftArm" fitHeight="86.0" fitWidth="91.0" layoutX="222.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@hangman-righta.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="manRightArm" fitHeight="86.0" fitWidth="91.0" layoutX="303.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@hangman-left.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="manBack" fitHeight="86.0" fitWidth="50.0" layoutX="282.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@hangman-back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="manRightLeg" fitHeight="100.0" fitWidth="60.0" layoutX="302.0" layoutY="343.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@hangman-righl.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="manLeftLeg" fitHeight="65.0" fitWidth="69.0" layoutX="243.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@hangman-leftl.png" />
+         </image>
+      </ImageView>
+      <HBox fx:id="lifePane" layoutX="430.0" layoutY="478.0" prefHeight="40.0" prefWidth="274.0" />
+      <Text fill="WHITE" layoutX="430.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Guesses">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <HBox fx:id="wordBox" layoutX="41.0" layoutY="60.0" />
+   </children>
+</AnchorPane>
